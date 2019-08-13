@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="inf" class="com.coll.spr.Information">
+<property name="data">
+<map>
+<entry key="101" value="Hyderabad"/>
+<entry key="102" value="Bengalore"/>
+</map>
+</property>
+<property name="members">
+<set>
+<value>Ajay</value>
+<value>Sanjay</value>
+<value>Pradeep</value>
+<value>Santosh</value>
+<value>Ajay</value>
+<value>Pradeep</value>
+</set>
+</property>
+</bean>
+</beans>
